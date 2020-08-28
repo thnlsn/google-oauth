@@ -5,7 +5,7 @@ export class App extends Component {
   responseGoogle = (response) => {
     // For testing
     console.log(response);
-    // Console log porfile data such as profile name, image, id, etc.
+    // Console log profile data such as profile name, image, id, etc.
     console.log(response.profileObj);
   };
 
@@ -13,7 +13,7 @@ export class App extends Component {
     return (
       <div>
         <GoogleLogin
-          clientId='114180824441-vd91frvs2v6grqfgbienho93fkocakgs.apps.googleusercontent.com'
+          clientId='114180824441-q4m3lcfc9jmp41luageelrohnp9i1rgb.apps.googleusercontent.com'
           buttonText=''
           onSuccess={this.responseGoogle}
           onFailure={this.responseGoogle}
