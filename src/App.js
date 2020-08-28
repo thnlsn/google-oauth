@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
 import GoogleLogin from 'react-google-login';
 export class App extends Component {
+  // Declaring method
+  responseGoogle = (response) => {
+    // For testing
+    console.log(response);
+    // Console log porfile data such as profile name, image, id, etc.
+    console.log(response.profileObj);
+  };
+
   render() {
-    // Declaring method
-    responseGoogle = (response) => {
-      // For testing
-      console.log(response);
-      // Console log porfile data such as profile name, image, id, etc.
-      console.log(response.profileObj);
-    };
     return (
       <div>
         <GoogleLogin
-          clientId=''
+          clientId='114180824441-vd91frvs2v6grqfgbienho93fkocakgs.apps.googleusercontent.com'
           buttonText=''
           onSuccess={this.responseGoogle}
           onFailure={this.responseGoogle}
