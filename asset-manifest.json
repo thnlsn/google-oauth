@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/google-oauth/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/google-oauth/static/js/main.06dc20d8.chunk.js",
+    "main.js.map": "/google-oauth/static/js/main.06dc20d8.chunk.js.map",
+    "runtime-main.js": "/google-oauth/static/js/runtime-main.7533709e.js",
+    "runtime-main.js.map": "/google-oauth/static/js/runtime-main.7533709e.js.map",
+    "static/js/2.5f83462a.chunk.js": "/google-oauth/static/js/2.5f83462a.chunk.js",
+    "static/js/2.5f83462a.chunk.js.map": "/google-oauth/static/js/2.5f83462a.chunk.js.map",
+    "index.html": "/google-oauth/index.html",
+    "precache-manifest.90fc5714b30c785692e18b3e403bf039.js": "/google-oauth/precache-manifest.90fc5714b30c785692e18b3e403bf039.js",
+    "service-worker.js": "/google-oauth/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/google-oauth/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.5f83462a.chunk.js.LICENSE.txt": "/google-oauth/static/js/2.5f83462a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7533709e.js",
+    "static/js/2.5f83462a.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.06dc20d8.chunk.js"
+  ]
+}
