@@ -12,6 +12,7 @@ export class App extends Component {
   render() {
     return (
       <div>
+        {/* Google Login component with props */}
         <GoogleLogin
           clientId='114180824441-q4m3lcfc9jmp41luageelrohnp9i1rgb.apps.googleusercontent.com'
           buttonText=''
