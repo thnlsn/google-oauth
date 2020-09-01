@@ -3,7 +3,7 @@ import GoogleLogin from 'react-google-login';
 export class App extends Component {
   // Declaring method
   responseGoogle = (response) => {
-    // For testing
+    // For testing #DELETE LATER#
     console.log(response);
     // Console log profile data such as profile name, image, id, etc.
     console.log(response.profileObj);
