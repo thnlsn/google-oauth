@@ -4,7 +4,6 @@ export class App extends Component {
   // Declaring method
   responseGoogle = (response) => {
     console.log(response);
-    // Console log profile data such as profile name, image, id, etc.
     console.log(response.profileObj);
   };
 
